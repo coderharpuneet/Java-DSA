@@ -37,3 +37,6 @@ public class fractionClass {
         System.out.println(f3.num+"/"+f3.den);
     }
 }
+/*
+ * 
+ */
