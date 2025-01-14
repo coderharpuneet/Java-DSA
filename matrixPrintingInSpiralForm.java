@@ -11,7 +11,7 @@ public class matrixPrintingInSpiralForm {
             for(int i=minc;i<=maxc;i++){
                 System.out.print(arr[minr][i]+" ");
             }
-            minr++;0
+            minr++;
             if(minr>maxr || minc>maxc){
                 break;
             }
