@@ -9,6 +9,16 @@ class LL{
             tail=temp;
         }
     }
+    public void insertAtHead(int val){
+        Node temp=new Node( val);
+        if(head==null){
+            head=tail=temp;
+        }
+        else{
+            temp.next=head;
+            head=temp;
+        }
+    }
     public void display(){
         Node temp =head;
         while(temp!=null){
@@ -17,13 +27,13 @@ class LL{
         }
     }
 }
-public class insertionAtEnd {
+public class insertionAtHead {
     public static void main(String[] args) {
         LL list=new LL();
         list.insertAtEnd(10);
         list.insertAtEnd(20);
         list.insertAtEnd(30);
-        list.insertAtEnd(40);
-        list.display();
+        list.insertAtHead(5);
+        list.display(); // 5,10,20,30
     }
 }
