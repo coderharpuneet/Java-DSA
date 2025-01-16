@@ -15,8 +15,8 @@ public class ListNodeClass {
         //Linking the list
         a.next=b; // 10->20
         b.next=c; // 10->20->30
-        c.next=d; //10->20->30->40
-        d.next=e; //10->20->30->40->50
+        c.next=d; // 10->20->30->40
+        d.next=e; // 10->20->30->40->50
         System.out.println(a);
         System.out.println(b);
         System.out.println(a.next);
