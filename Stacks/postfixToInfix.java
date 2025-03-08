@@ -8,6 +8,7 @@ public class postfixToInfix {
             char ch=postfix.charAt(i);
             int ascii=(int)ch;
             if(ascii>=48 && ascii<=57) val.push(ch+"");
+            
             else{
                 String v2=val.pop();
                 String v1=val.pop();
