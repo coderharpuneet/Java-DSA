@@ -28,11 +28,15 @@ public class levelOrderTraversal {
         Node d=new Node(4);
         Node e=new Node(5);
         Node f=new Node(6);
+        Node g=new Node(7);
+        Node h=new Node(8);
         a.left=b;
         a.right=c;
         b.left=d;
         b.right=e;
         e.right=f;
+        c.left=g;
+        c.right=h;
         levelOrder(a);
     }
 }
